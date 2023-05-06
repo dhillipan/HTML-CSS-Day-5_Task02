@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+
+
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    background-color: white;
+    height: auto;
+    padding: 60px 40px;
+}
+
+
+.header {
+    
+    width: 100%;
+    margin-bottom: 50px;
+    margin-left: 0;
+}
+
+.header td {
+    width: 50%;
+    background-color: rgb(54, 54, 54);
+    padding: 20px 30px;
+    text-align: left;
+    color: white;
+    vertical-align: middle;
+    line-height: 1.3;
+}
+
+.header h1 {
+    font-size: 70px;
+    
+}
+
+.header p {
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+.header th {
+    width: 50%;
+    padding: 20px 30px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 1.5;
+    font-size: 25px;
+}
+
+h2{
+    width: auto;
+    font-size: 24px;
+    background-color: rgb(54, 54, 54);
+    padding: 10px 20px;
+    color: white;
+    margin: 20px 0;
+}
+
+p, ul{
+margin-left: 40px;
+font-size: 18px;
+width: 80%;
+line-height: 30px;
+}
+
+.Bullet li::before{
+    content:"";
+    display: inline-block;
+    background: black;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -15px;
+    position: relative;
+}
+
+
+table {
+    margin-left: 40px;
+}
+
+table tr td{
+    padding-right: 40px;
+    line-height: 30px;
+}
+
+.fullwidth{
+    width: 100%;
+}
+
+
+.ExperienceProfile tr td{
+   padding-bottom: 20px;
+}
+
+.Declaration tr td{
+    padding-top: 20px;
+ }
+
+
+
+    
+    
